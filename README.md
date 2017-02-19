@@ -3,7 +3,7 @@ What if we spoke English the way it was spelled? Talk to Pronunciator to find ou
 
 [Run it (tested on Google Chrome for Mac, doesn't work on Safari or mobile devices)](https://)
 
-![Word Pronunciator](https://)
+![Word Pronunciator](assets/img/icon.png)
 
 ### Popular examples:
 * "the four birds went on a night flight"
