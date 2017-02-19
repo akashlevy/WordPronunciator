@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="How the English language would sound if everything was pronounced literally">
+    <meta name="author" content="Akash Levy">
+    <link rel="icon" href="assets/img/favicon.ico">
+    <title>Word Pronunciator</title>
+    <!-- Bootstrap core CSS -->
+    <link rel='stylesheet' href='assets/css/bootstrap.min.css'>
+    <!-- Custom styles for this template -->
+    <link rel='stylesheet' href='assets/css/main.css'>
+  </head>
+  <body>
+    <div class='container'>
+      <h1>Word Pronunciator</h1>
+      <h2>Because the English language is weird</h2>
+      What if we spoke English the way it was spelled? Talk to Pronunciator to find out what it would sound like!
+      <br/>
+      <img src='assets/img/icon.png'></img>
+      <div id='info'>
+        <p id='info_start'>Click on the microphone icon and begin speaking.</p>
+        <p id='info_speak_now'>Speak now.</p>
+        <p id='info_no_speech'>No speech was detected. You may need to adjust your microphone settings.</p>
+        <p id='info_no_microphone'>No microphone was found. Ensure that a microphone is installed and that microphone settingsare configured correctly.</p>
+        <p id='info_allow'>Click the "Allow" button above to enable your microphone.</p>
+        <p id='info_denied'>Permission to use microphone was denied.</p>
+        <p id='info_blocked'>Permission to use microphone is blocked.</p>
+        <p id='info_upgrade'>Web Speech API is not supported by this browser.</p>
+      </div>
+      <div class='right'>
+        <button id='start_button' onclick='startButton(event)'>
+          <img id='start_img' src='assets/img/mic.gif' alt='Start'>
+        </button>
+      </div>
+      <div id='results'>
+        <span id='final_span' class='final'></span>
+        <span id='interim_span' class='interim'></span>
+      </div>
+      <div class='examples'>
+        <table>
+          <tr>
+            <td>
+              <h4>Popular examples:</h4>
+              <ul>
+                <li>"the four birds went on a night flight"</li>
+                <li>"what are you doing"</li>
+                <li>"what is in the fridge"</li>
+              </ul>
+              <h4>How it works:</h4>
+              <ul>
+                <li>Coded in HTML5</li>
+                <li>Processes input using browser's speech recognition</li>
+                <li>Converts script to Devanagari (a phonetic alphabet) based on a set of rules</li>
+                <li>Outputs pronunciated speech using Google's Devanagari synthesizer</li>
+              </ul>
+            </td>
+            <td>
+              <h4>Further reading/references on why English sucks:</h4>
+              <ul>
+                <li>See <a href='http://www.boredpanda.com/funny-english-language-jokes/'>this</a>: a fairly thorough reference on the ways English is 🗑️</li>
+                <li><a href='https://www.youtube.com/watch?v=sEWS45e5npA'>This</a> compilation of hilarious ways in which you can mispronounce English words</li>
+                <li><a href='https://www.youtube.com/user/PronunciationManual'>This</a> entire YouTube channel</li>
+              </ul>
+              <h4>About this project:</h4>
+              <ul>
+                <li>Developed at <a href='https://www.treehacks.com/'>TreeHacks</a> 2017 (in a couple of hours)</li>
+                <li>By <a href='https://github.com/akashlevy'>Akash Levy</a> (with heavy copying of example code as always)</li>
+                <li>Shout goes out to the lovely Sonia Targ for most of the brilliant ideas</li>
+                <li>Other credits: <a href='https://github.com/GoogleChrome/webplatform-samples'>Google Chrome team</a>, <a href='http://www.heropatterns.com/'>Hero Patterns</a>, <a href='http://www.flaticon.com/'>FlatIcon</a>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src='assets/js/vanilla.js'></script>
+    <script src='assets/js/main.js'></script>
+    <script src='assets/js/jquery-3.1.1.slim.min.js'></script>
+    <script src='assets/js/tether.min.js'></script>
+    <script src='assets/js/bootstrap.min.js'></script>
+  </body>
+</html>
