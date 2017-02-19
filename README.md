@@ -1,7 +1,7 @@
 <img src="assets/img/icon.png" alt="Word Pronunciator logo" title="Word Pronunciator" align="right" height="96" width="96"/>
 
 # Word Pronunciator
-What if we spoke English the way it was spelled? Talk to Pronunciator to find out what it would sound like!
+What if we spoke English the way it was spelled? Talk to Word Pronunciator to find out what it would sound like!
 
 [Run it (tested on Google Chrome for Mac, doesn't work on Safari or mobile devices)](https://)
 
