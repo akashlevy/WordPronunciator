@@ -1,4 +1,4 @@
-# Word Pronunciator: Because the English language is weird
+# Word Pronunciator
 What if we spoke English the way it was spelled? Talk to Pronunciator to find out what it would sound like!
 
 [Run it (tested on Google Chrome for mac, doesn't work on Safari or mobile devices)](https://)
