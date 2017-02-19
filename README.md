@@ -1,4 +1,4 @@
-<img src="assets/img/icon.png" alt="Word Pronunciator logo" title="Word Pronunciator" align="right" height="128" width="128"/>
+<img src="assets/img/icon.png" alt="Word Pronunciator logo" title="Word Pronunciator" align="right" height="96" width="96"/>
 
 # Word Pronunciator
 What if we spoke English the way it was spelled? Talk to Pronunciator to find out what it would sound like!
